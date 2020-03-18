@@ -1,0 +1,283 @@
+/*index.html*/
+
+/*Navbar Section*/
+.navbar{
+  list-style-type: none;
+  background-color: black;
+  font-family: Helvetica Neue;
+  overflow: hidden;
+  margin: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+li {
+  float:left;
+}
+
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa-linkedin, .fa-dribble, .fa-instagram, .fa-codepen, .fa-envelope {
+  color: white;
+}
+
+/*End Navbar Section*/
+
+.color-border{
+  display: flex;
+  flex-direction: row;
+  background-color: #00FFFF;
+  height: 20px;
+  margin: 5px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-one-container{
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+  margin-top: 2%;
+}
+
+#imgOne{
+  border-radius: 50%;
+  height: 15em;
+  width: 15em;
+  padding-right:5%;
+  padding-left: 5%;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 7%;
+  font-size: 4em;
+  font-family: Helvetica Neue;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.flex-two-container{
+  padding-top: 2%;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: 10px;
+  border-bottom: 10px solid black;
+
+}
+
+.flex-three-container{
+  display: box;
+  display : flex;
+  box-align: center;
+  justify-content: center;
+}
+
+#backgroundImg{
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.section-box{
+  width: 600px;
+  height: 200px;
+  background-color: #00FFFF;
+  position: absolute;
+  margin-top: 13%;
+  box-shadow: 10px 10px 5px grey;
+}
+
+/*about.html*/
+
+#aboutpg{
+}
+
+.about-container-one{
+  display: flex;
+  margin-top: 2%;
+  flex-direction: row;
+  background-color: black;
+}
+
+#imgaboutpage{
+  height: 15em;
+  width: 15em;
+  padding-right:15%;
+  padding-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#about-heading-one{
+  color: white;
+}
+
+.about-container-two{
+  display: flex;
+  flex-direction: row;
+  background-color: #00FFFF;
+  width: 100%;
+  height: 10px;
+}
+
+.about-container-three{
+  display: flex;
+  flex-direction: row;
+  /*background-color: grey; */
+  width: 100%;
+  justify-content: center;
+}
+
+.about-container-four{
+   margin: 3%;
+   font-family: Helvetica;
+}
+p{
+  color: black;
+}
+
+#shape-design{
+  width: auto;
+  height: 80px;
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.shape-design-two-through-four{
+  width: auto;
+  height: 80px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+
+/*design.html*/
+/*#designspg{
+  background-color: black;
+*/
+.top-design-border{
+  display: flex;
+  flex-direction: row;
+  background-color: #00FFFF;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.flex-container-design{
+ display: flex;
+ flex-direction: column;
+}
+
+.flex-design-one-two-four-five{
+  display: flex;
+  flex-direction: row;
+}
+
+.imageRowOne{
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin: 30px;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+.expand:hover, #imgaboutpage:hover, .imageRowOne:hover, .imageRowTwo:hover,  .imageRowThree:hover, .imageRowFour:hover,.imageRowFive:hover, .imageRowSix:hover{
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
+}
+
+
+.imageRowTwo{
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin: 30px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.flex-design-three{
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+}
+
+.imageRowThree{
+  width: 30%;
+  height: 10%;
+  position: relative;
+  margin: 20px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+.imageRowFour{
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin: 30px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+
+.imageRowFive{
+  width: 45%;
+  height: auto;
+  position: relative;
+  margin: 30px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.flex-design-six{
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  align-items: center;
+
+}
+
+.imageRowSix{
+  width: 20%;
+  height: auto;
+  position: relative;
+  padding: 5%;
+}
