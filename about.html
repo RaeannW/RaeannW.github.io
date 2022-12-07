@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <title>About Us</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <div class="topNav">
+        <div class="centerLogo">
+            <a href="index.html" class="active">
+                <img class="logo" src="images/officeSuppliesLogo.png" alt="office supplies logo">
+            </a>
+            <a href="cart.html">
+                <img class="shoppingCart" src="images/shoppingCart.png" alt="shopping cart">
+            </a>
+        </div>
+    </div>
+
+    <div class="topNav2">
+        <div>
+            <ul>
+                <li><a href="newArrivals.html">New Arrivals</a></li>
+                <li><a href="deskAccessories.html">Desk Accessories</a></li>
+                <li><a href="stationary.html">Stationary</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- End Navigation -->
+
+
+    <!-- Content Container Section One -->
+
+    <div>
+        <a>
+            <img class="blogPostImg" src="images/aboutUs.png" alt="office supplies about us">
+        </a>
+    </div>
+
+    <div>
+        <h2 class="headingForBlog">About Us</h2>
+        <h3 class="subHeadingForBlog">A Brief History of the Company</h3>
+        <p class="blogPostDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eos
+            quos
+            eius repellendus optio, a, vero quam facere totam obcaecati molestias ipsam alias dignissimos sed et
+            accusantium iste repellat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eos
+            quos
+            eius repellendus optio, a, vero quam facere totam obcaecati molestias ipsam alias dignissimos sed et
+            accusantium iste repellat eius repellendus optio, a, vero quam facere totam obcaecati molestias ipsam alias
+            dignissimos sed et
+            accusantium iste repella</p>
+
+        <p class="blogPostDescription">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eos
+            quos
+            eius repellendus optio, a, vero quam facere totam obcaecati molestias ipsam alias dignissimos sed et
+            accusantium iste repellat.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt molestiae eos
+            quos
+            eius repellendus optio, a, vero quam facere totam obcaecati molestias ipsam alias dignissimos sed et</p>
+
+    </div>
+
+    <hr class="solid">
+
+
+    <h2 class="contactUs">Contact Us</h2>
+
+    <div class="socialCenter">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">
+                    <img class="socialIcons" src="images/facebookIcon.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank">
+                    <img class="socialIcons" src="images/instagramIcon.png" alt="Instagram">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com" target="_blank">
+                    <img class="socialIcons" src="images/twitterIcon.png" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img class="socialIcons" src="images/linkedInIcon.png" alt="LinkedIn">
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="formContainer">
+
+        <form class="formField" onsubmit="return false;">
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Name</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="fname" name="firstname" placeholder="Full Name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="lname">Email</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="lname" name="lastname" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-25">
+                    <label for="subject">Message</label>
+                </div>
+                <div class="col-25">
+                    <textarea id="subject" name="subject" placeholder="Enter Your Message Here.."
+                        style="height:200px"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <input onclick="formPromt()" type="submit" value="Submit">
+            </div>
+        </form>
+
+    </div>
+
+
+    <!-- End Content Container Section One -->
+
+    <!-- Footer -->
+
+    <footer class="footerClass">
+        <div class="footerSubSection">
+            <a href="index.html" class="active">
+                <img class="footerLogo" src="images/officeSuppliesLogo.png" alt="office supplies logo">
+            </a>
+        </div>
+
+        <div class="footerList">
+            <ul>
+                <li><a href="newArrivals.html">Products</li></a>
+                <li><a href="blog.html">Blog</li></a>
+                <li><a href="about.html">About Us</li></a>
+            </ul>
+        </div>
+
+        <div class="footerSocial">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="socialIcons" src="images/facebookIcon.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="socialIcons" src="images/instagramIcon.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img class="socialIcons" src="images/twitterIcon.png" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <img class="socialIcons" src="images/linkedInIcon.png" alt="LinkedIn">
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <!-- End Footer -->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
